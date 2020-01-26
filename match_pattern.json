@@ -1,0 +1,150 @@
+{
+    "allemand": {
+        "pattern": "^[Dd]ie | [Dd]ie |[Kk]artoffeln?|schén| [Dd]er |^[dD]er | [Dd]as |^[dD]as |danke|guten?|nacht| ich |^[iI]ch | bin | ein |^[Ee]in ",
+        "response": {
+            "type": "simple",
+            "messages": ["Deutschland über alles !", "Ein Volk, ein Reich, ein Kartoffel !", "Heil Kartoffeln !"]
+        }
+    },
+    "cthulhu": {
+        "pattern": "[Cc]thulhu",
+        "response": {
+            "type": "simple",
+            "messages": ["On parle de moi ?", "Je suis là !", "J'aime le doux son de mon nom..."]
+        }
+    },
+    "degueu": {
+        "pattern": "[Dd][Eeé][Gg][uU][Ee][Uu]",
+        "response": {
+            "type": "simple",
+            "messages": ["C'est toujours mieux qu'une pizza à l'ananas."]
+        }
+    },
+    "fucking": {
+        "pattern": "[Ff][Uu][Cc][Kk]",
+        "response": {
+            "type": "simple",
+            "messages": ["Le... fucking !"]
+        }
+    },
+    "help": {
+        "pattern": "!help",
+        "response": {
+            "type": "simple",
+            "messages": ["Salut tout le monde ! Cthulhu est dans la place ! \nPour expérimenter mon option livre d'or, tapez \"!helplivredor\" \nPour me faire taire, tapez \"Silence Cthulhu\"\nPour plus d'info tapez \"!info\""]
+        }
+    },
+    "humain": {
+        "pattern": "([Hh]umain)",
+        "response": {
+            "type": "simple",
+            "messages": ["\"Humain\" ? Ah oui, cette race de créatures qui fait partie de mes esclaves !"]
+        }
+    },
+    "info": {
+        "pattern": "!info",
+        "response": {
+            "type": "simple",
+            "messages": ["Fonctionnalités :\n Repérer \"perd(*)\", \"jeu(x)\" et \"game(s)\"\n Repérer l'Allemand\n Répondre à un ping\n Répondre à \"dégueulasse\"\n Répondre aléatoirement \"Toi-même, 'spèce de ...\" 1 fois sur 50 où le \"...\" est le dernier mot de plus de 3 caractères de la phrase (en excluant les mots en -er, -ez et -ir)\n Répondre à \"C'est pas faux\"\n Répondre à \"mécréant\"\n Répondre à \"humain\"\n Détecter les mots grossiers \"fuck\" et \"merde\"\n Répondre quand on parle de lui, répond à un merci qui lui est adressé\n Répondre si on inverse le T et le H en début de Cthulhu\n Répondre à un \"bonne nuit\"\n Se tait 15 minutes lors d'un \"Silence Cthulhu\"\n Se vexe 15 minutes lors d'un \"Ta gueule Cthulhu\"\n Fonctionnalité livre d'or (tapez \"!helplivredor\" pour plus d'informations)"]
+        }
+    },
+    "jeu": {
+        "pattern": " [Jj][Ee][Uu][Xx]?[ .?!]| [Jj][Ee][Uu][Xx]?[.!?]?$|^[Jj][Ee][Uu][Xx]?[ .?!]|^[Jj][Ee][Uu][Xx]?[.?!]?$|[Gg][Aa][Mm][Ee][Ss]? |[Gg][Aa][Mm][Ee][Ss]?$|[Pp][Ee][Rr][Dd][UuRrSs]?",
+        "response": {
+            "type": "simple",
+            "messages": ["Vous venez de *perdre*. Amicalement bien sûr.", "C'est vraiment regrettable de **perdre** !", "Vous avez tous perdu ! MUHAHAHAHA !"]
+        }
+    },
+    "livredor": {
+        "pattern": "!livredor",
+        "response": {
+            "type": "complex"
+        }
+    },
+    "livredorauteur": {
+        "pattern": "auteur=(.*)$",
+        "response": {
+            "type": "complex"
+        }
+    },
+    "livredorhelp": {
+        "pattern": "!helplivredor",
+        "response": {
+            "type": "simple",
+            "messages": []
+        }
+    },
+    "mauvaisCthulhu": {
+        "pattern": "[Cc]htulhu",
+        "response": {
+            "type": "simple",
+            "messages": ["On dit C**th**ulhu, 'spèce d'illettré d'humain.", "La médiocrité de ces humains m'affligera toujours... on dit C**th**ulhu.", "REPENS-TOI POUR CETTE INJURE A MON AUGUSTE NOM MISERABLE CLOPORTE !! On dit C**th**ulhu !"]
+        }
+    },
+    "mecreant": {
+        "pattern": "[Mm]écréant",
+        "response": {
+            "type": "simple",
+            "messages": ["https://www.youtube.com/watch?v=RNYOhWOPHS8"]
+        }
+    },
+    "merde": {
+        "pattern": "[Mm][Ee][Rr][Dd][Ee]",
+        "response": {
+            "type": "simple",
+            "messages": ["sacrebleu", "saperlipopette", "cornegidouille"]
+        }
+    },
+    "merci": {
+        "pattern": "[mM]erci [Cc]thulhu",
+        "response": {
+            "type": "simple",
+            "messages": ["Les humains m'adorent.", "A votre service, divertissant sujet."]
+        }
+    },
+    "nuit": {
+        "pattern": "[Bb]onne nuit",
+        "response": {
+            "type": "complex"
+        }
+    },
+    "pasfaux": {
+        "pattern": "[Cc]'est pas faux",
+        "response": {
+            "type": "simple",
+            "messages": ["Qu'est-ce que t'as pas compris ?"]
+        }
+    },
+    "ping": {
+        "pattern": "^[Pp][Ii][Nn][Gg][ ,.].*|^[Pp][Ii][Nn][Gg]$| [Pp][Ii][Nn][Gg][ ,.].*| [Pp][Ii][Nn][Gg]$",
+        "response": {
+            "type": "simple",
+            "messages": []
+        }
+    },
+    "silence": {
+        "pattern": "[Ss]ilence [Cc]thulhu",
+        "response": {
+            "type": "complex"
+        }
+    },
+    "tagueule": {
+        "pattern": "[Tt]a gueule [Cc]thulhu",
+        "response": {
+            "type": "complex"
+        }
+    },
+    "tanche": {
+        "pattern": " [tT]anche[s.,!?]* | [tT]anche[s.,!?]*$|^[tT]anche[s.,?!]* ",
+        "response": {
+            "type": "simple",
+            "messages": []
+        }
+    },
+    "toimeme": {
+        "pattern": "^.* ([A-Za-zzéêèôîïëüö]{4,}).*$",
+        "response": {
+            "type": "complex"
+        }
+    }
+}
