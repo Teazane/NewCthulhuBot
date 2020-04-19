@@ -45,7 +45,7 @@
         "pattern": "!info",
         "response": {
             "type": "simple",
-            "messages": ["Fonctionnalités :\n Repérer \"perd(*)\", \"jeu(x)\" et \"game(s)\"\n Repérer l'Allemand\n Répondre à un ping\n Répondre à \"dégueulasse\"\n Répondre aléatoirement \"Toi-même, 'spèce de ...\" 1 fois sur 50 où le \"...\" est le dernier mot de plus de 3 caractères de la phrase (en excluant les mots en -er, -ez et -ir)\n Répondre à \"C'est pas faux\"\n Répondre à \"mécréant\"\n Répondre à \"humain\"\n Détecter les mots grossiers \"fuck\" et \"merde\"\n Répondre quand on parle de lui, répond à un merci qui lui est adressé\n Répondre si on inverse le T et le H en début de Cthulhu\n Répondre à un \"bonne nuit\"\n Se tait 15 minutes lors d'un \"Silence Cthulhu\"\n Se vexe 15 minutes lors d'un \"Ta gueule Cthulhu\"\n Fonctionnalité livre d'or (tapez \"!helplivredor\" pour plus d'informations)"]
+            "messages": ["Fonctionnalités :\n Repérer \"perd(*)\", \"jeu(x)\" et \"game(s)\"\n Repérer l'Allemand\n Répondre à un ping\n Répondre à \"dégueulasse\"\n Répondre aléatoirement \"Toi-même, 'spèce de ...\" 1 fois sur 50 où le \"...\" est le dernier mot de plus de 3 caractères de la phrase (en excluant les mots en -er, -ez et -ir)\n Répondre à \"Tanche\"\n Répondre à \"C'est pas faux\"\n Répondre à \"mécréant\"\n Répondre à \"humain\"\n Répondre à \"fuck\"\n Répondre quand on parle de lui, répond à un merci qui lui est adressé\n Répondre si on inverse le T et le H en début de Cthulhu\n Se tait 15 minutes lors d'un \"Silence Cthulhu\"\n Se vexe 15 minutes lors d'un \"Ta gueule Cthulhu\"\n Fonctionnalité livre d'or (tapez \"!helplivredor\" pour plus d'informations)"]
         }
     },
     "jeu": {
@@ -58,20 +58,15 @@
     "livredor": {
         "pattern": "!livredor",
         "response": {
-            "type": "complex"
-        }
-    },
-    "livredorauteur": {
-        "pattern": "auteur=(.*)$",
-        "response": {
-            "type": "complex"
+            "type": "complex",
+            "case": "livredor"
         }
     },
     "livredorhelp": {
         "pattern": "!helplivredor",
         "response": {
             "type": "simple",
-            "messages": []
+            "messages": ["Livre d'or :\n Tapez \"!livredor\" pour obtenir une citation au hasard\n Tapez \"!livredor auteur=Prénom\" (n'oubliez pas la majuscule) pour obtenir une citation d'une personne en particulier"]
         }
     },
     "mauvaisCthulhu": {
@@ -102,12 +97,6 @@
             "messages": ["Les humains m'adorent.", "A votre service, divertissant sujet."]
         }
     },
-    "nuit": {
-        "pattern": "[Bb]onne nuit",
-        "response": {
-            "type": "complex"
-        }
-    },
     "pasfaux": {
         "pattern": "[Cc]'est pas faux",
         "response": {
@@ -125,26 +114,24 @@
     "silence": {
         "pattern": "[Ss]ilence [Cc]thulhu",
         "response": {
-            "type": "complex"
+            "type": "complex",
+            "case": "silence",
+            "messages": ["Et le silence fut."]
         }
     },
     "tagueule": {
         "pattern": "[Tt]a gueule [Cc]thulhu",
         "response": {
-            "type": "complex"
+            "type": "complex",
+            "case": "gueule",
+            "messages": ["Oui bon bah ça va, pas la peine d'être désagréable ! *boude*"]
         }
     },
     "tanche": {
         "pattern": " [tT]anche[s.,!?]* | [tT]anche[s.,!?]*$|^[tT]anche[s.,?!]* ",
         "response": {
             "type": "simple",
-            "messages": []
-        }
-    },
-    "toimeme": {
-        "pattern": "^.* ([A-Za-zzéêèôîïëüö]{4,}).*$",
-        "response": {
-            "type": "complex"
+            "messages": [":fish: "]
         }
     }
 }
