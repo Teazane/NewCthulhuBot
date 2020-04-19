@@ -1,0 +1,870 @@
+<?xml version = "1.1" encoding="UTF-8" standalone="yes" ?>
+	<!-- Livre d'or mis en forme en XML - dernier édit : avril 2020 -->
+	<livredor>
+		<citation type="monologue">
+			<replique>Je peux pas faire n’importe quoi avec l’absurde !</replique>
+			<auteur>Claire</auteur>
+			<date>Mars 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Nan mais y’a pas d’arbre sur les montagnes.</replique>
+			<auteur>Alex</auteur>
+			<date>Mars 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Quitte à couler, autant couler à l’air libre.</replique>
+			<auteur>Morgane</auteur>
+			<date>Avril 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Salut, on est aujourd’hui ! A demain !</replique>
+			<auteur>Morgane</auteur>
+			<date>Avril 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Ceci est le verso. Sauf si on décide que c’est le recto.</replique>
+			<auteur>Violaine</auteur>
+			<date>Avril 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Oh ça va, je suis plutôt nazie.</replique>
+			<auteur>Lucile</auteur>
+			<date>Mai 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>En réseau y’a des problèmes de communication.</replique>
+			<auteur>Tom</auteur>
+			<date>Mai 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>C'est Lisa qui a mis ce soutien-gorge sur le tapis !</replique>
+			<auteur>Claire</auteur>
+			<date>Mai 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>C’est la voix off du silence.</replique>
+			<auteur>Lisa</auteur>
+			<date>Mai 2016</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>Du coup... Les soutifs c'est cool. - Ah oui, à partir du moment où ça sert à mettre des seins dedans y’a pas besoin de discuter là-dessus.</replique>
+			<auteur>Lisa</auteur>
+			<auteur>Pierre</auteur>
+			<date>Mai 2016</date>
+			<commentaire>un soir sur Discord</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>Boire du thé c’est du vampirisme en fait ?</replique>
+			<auteur>Lucile</auteur>
+			<date>Mai 2016</date>
+			<commentaire>réflexion avec Morgane</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>Elle se barre à l'autre bout de l'univers mais elle ne sait pas encore lequel.</replique>
+			<auteur>Pierre</auteur>
+			<date>Mai 2016</date>
+			<commentaire>en parlant de Lena</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>Rajoute pas du feu sur les épinards.</replique>
+			<auteur>Claire</auteur>
+			<date>Mai 2016</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>Vus la taille et le poids du paquet, c’est soit un artefact qui peut détruire le monde... - Soit un gros hamster muet.</replique>
+			<auteur>Tom</auteur>
+			<auteur>Sbouvier</auteur>
+			<date>Mai 2016</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>J’ai envie d’un thé. - [tend son dentifrice]</replique>
+			<auteur>Claire</auteur>
+			<auteur>Lucile</auteur>
+			<date>Juin 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Je n'ai toujours pas trouvé de zizi pour te l'apporter</replique>
+			<auteur>Lisa</auteur>
+			<date>Juin 2016</date>
+			<commentaire>à Claire</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>Au nom des droits de la femme, tous à poil !</replique>
+			<auteur>Pierre</auteur>
+			<date>Juin 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Il ne faut pas juger une couleur sur son apparence !</replique>
+			<auteur>Claire</auteur>
+			<date>Juin 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Je sais que tu sais mais je t'explique.</replique>
+			<auteur>Morgane</auteur>
+			<date>Juin 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Moi au moins, j'ai la décence de ne pas venir quand je ne viens pas !</replique>
+			<auteur>Pierre</auteur>
+			<date>Juillet 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Un caribou ça se trouve pas dans le cul d'une vache.</replique>
+			<auteur>Claire</auteur>
+			<date>Août 2016</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>A ton avis, c’est quoi les canons de beauté lesbiens ? - Sans doute les mêmes que ceux des mecs qui aiment les frites.</replique>
+			<auteur>Claire</auteur>
+			<auteur>Lucile</auteur>
+			<date>Août 2016</date>
+			<commentaire>revenant de la plage</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>Lisa a glissé sur Dimitri façon plaque eurasiatique.</replique>
+			<auteur>Pierre</auteur>
+			<date>Août 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>De toute manière et dans tous les cas soit tu bouffes des êtres vivants morts, soit tu vis d'amour et d'eau fraîche… Il vaut mieux ça que des êtres morts-vivants.</replique>
+			<auteur>Mael</auteur>
+			<date>Août 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Je le connais trop bien mais je le connais pas bien.</replique>
+			<auteur>Tom</auteur>
+			<date>Juillet 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Pourquoi on aurait un déo’ ? T’as pas de cheveux !</replique>
+			<auteur>Claire</auteur>
+			<date>Juillet 2016</date>
+			<commentaire>en RP</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>Quand t’es aveugle, tu vois pas les coups venir.</replique>
+			<auteur>Lucile</auteur>
+			<date>Juillet 2016</date>
+			<commentaire>en RP</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>Plus on est de sacs plus on tanche !</replique>
+			<auteur>Lucile</auteur>
+			<date>Août 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Nan mais quand j’dis des trucs hors contexte j’parle à voix haute.</replique>
+			<auteur>Emilie</auteur>
+			<date>Septembre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Alex il faut l’écouter parler : soit il dit des choses vraies et il faut les suivre, soit il dit des trucs marrants et il faut rire.</replique>
+			<auteur>Morgane</auteur>
+			<date>Septembre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Hey, on est friends, j’peux voir tes attributs privés ?</replique>
+			<auteur>Francesco</auteur>
+			<date>Septembre 2016</date>
+			<commentaire>en cours de C++</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>Il faut que je t'explique les règles des poisons, c'est mortel !</replique>
+			<auteur>Lucile</auteur>
+			<date>Septembre 2016</date>
+			<commentaire>en RP</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>Soren ne cilla pas d’un sourcil.</replique>
+			<auteur>Claire</auteur>
+			<date>Septembre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>J’hésite à avoir faim.</replique>
+			<auteur>Yohan</auteur>
+			<date>Septembre 2016</date>
+			<commentaire>devant le self</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>Si tu vernis une betterave, ça donne en gros la voiture d’Alex.</replique>
+			<auteur>Bizuth</auteur>
+			<date>Septembre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Un jour j’aurai assez d’argent pour me payer un livre d’or, comme ça TAC ! Livre d’or. Mais ce sera un jour lointain.</replique>
+			<auteur>Lucile</auteur>
+			<date>Septembre 2016</date>
+			<commentaire>sous la demande de Morgane</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>Je sortais tranquillement de ma porte...</replique>
+			<auteur>Morgane</auteur>
+			<date>Octobre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>J’suis certaine d’avoir entendu mon nom mais j’suis pas sûre.</replique>
+			<auteur>Morgane</auteur>
+			<date>Octobre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Tu vois, ça ne mange pas de poussins les prairies, gros avantage !</replique>
+			<auteur>Lucile</auteur>
+			<date>Octobre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>J’adore le son de ma voix, du coup quand je parle, je me tais pour l’écouter.</replique>
+			<auteur>Bizuth</auteur>
+			<date>Octobre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Dans la clairière, nous sommes tombés sur cinq cadavres, un sixième a pris la fuite.</replique>
+			<auteur>Claire</auteur>
+			<date>Octobre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Parfois, il faut savoir prendre son courage à deux mains et taper sur son voisin avec.</replique>
+			<auteur>Pierre</auteur>
+			<date>Octobre 2016</date>
+			<commentaire>jouant à Civ. VI</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>J’suis née à un moment random dans ma vie.</replique>
+			<auteur>Morgane</auteur>
+			<date>Octobre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>C’est vrai que t’as une plus grosse flûte…</replique>
+			<auteur>Lorraine</auteur>
+			<date>Octobre 2016</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>Y’a beaucoup de lieux à mi-chemin entre ici et là-bas en général. - Je crois que c'est faux.</replique>
+			<auteur>Pierre</auteur>
+			<auteur>Lisa</auteur>
+			<date>Octobre 2016</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>C’est pas bordeau, c’est violet ! - Oui mais tu peux faire croire que c’est bordeau à un aveugle.</replique>
+			<auteur>Lucile</auteur>
+			<auteur>Tom</auteur>
+			<date>Octobre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>A l’unanimité de deux et demi, ils votent pour 4h.</replique>
+			<auteur>Lucile</auteur>
+			<date>Octobre 2016</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>J’me souviens plus, il est drogué ou pas ? - Moi j’aimerais bien !</replique>
+			<auteur>Morgane</auteur>
+			<auteur>Lucile</auteur>
+			<date>Octobre 2016</date>
+			<commentaire>en pleine murder</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>Dans mon rêve, je jouais de la musique. Je ne me rappelle plus de l'instrument... c'était une bouteille d'eau je crois.</replique>
+			<auteur>Claire</auteur>
+			<date>Octobre 2016</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>Dormir c’est une action. - J’suis très actif alors !</replique>
+			<auteur>Blouin</auteur>
+			<auteur>Lucas</auteur>
+			<date>Novembre 2016</date>
+			<commentaire>en cours</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>C’est un genre de vautour-sirène… Enfin… Tu vois les escargots baveux ?</replique>
+			<auteur>Alex</auteur>
+			<date>Novembre 2016</date>
+			<commentaire>en pleine description</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>C’est un théorème qui dit que la réponse est trois. On peut l’utiliser dans des cas spécifiques, genre quand la réponse est trois.</replique>
+			<auteur>Alex</auteur>
+			<date>Novembre 2016</date>		
+			<commentaire>théorisant avec Morgane</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>UBER SBOUVIER, UBER EN AVANT !! *splotch* Oh. Uber flaque…</replique>
+			<auteur>Sbouvier</auteur>
+			<date>Novembre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>J’ai toujours dormis pendant que je dormais.</replique>
+			<auteur>Morgane</auteur>
+			<date>Novembre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Après, elle s’est correctifiée.</replique>
+			<auteur>Francesco</auteur>
+			<date>Novembre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>C’est bien de monter, ça permet de pas descendre.</replique>
+			<auteur>Laura</auteur>
+			<date>Novembre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Le bonheur c’est important pour faire la guerre.</replique>
+			<auteur>Tom</auteur>
+			<date>Novembre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>On va voir à quel point la magie c’est magique.</replique>
+			<auteur>Bizuth</auteur>
+			<date>Décembre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Le devoir je crois que ça se rapporte à un truc.</replique>
+			<auteur>Pierre</auteur>
+			<date>Décembre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Ça fait de la merde, mais la merde que je veux.</replique>
+			<auteur>Alex</auteur>
+			<date>Décembre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Chaque mois, on fait une réunion hebdomadaire...</replique>
+			<auteur>Claire</auteur>
+			<date>Décembre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Je refuse de considérer une telle atrocité, et je retourne à mon rapport de préplannification de rapports.</replique>
+			<auteur>Bizuth</auteur>
+			<date>Décembre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Nan mais une cellule c’est comme… comme… comme un cake quoi !</replique>
+			<auteur>Alex</auteur>
+			<date>Décembre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>C’est comme si j’dis euh… j’préfère manger des frites que de me faire démembrer.</replique>
+			<auteur>Bizuth</auteur>
+			<date>Décembre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>C’est mieux d’avoir une demi-fesse sur le devant qu’une demi-fesse sur le côté !</replique>
+			<auteur>Emilie</auteur>
+			<date>Décembre 2016</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>On ne peut pas hériter d’une amitié. - Sauf sur Facebook !</replique>
+			<auteur>Un prof</auteur>
+			<auteur>Romain Jegat</auteur>
+			<date>Octobre 2016</date>
+			<commentaire>en cours de C++</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>J’suis trop forte, je lis dans ta… guitare !</replique>
+			<auteur>Lucile</auteur>
+			<date>Décembre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Tu m’as prise en surprise avec tes boules !</replique>
+			<auteur>Claire</auteur>
+			<date>Décembre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Va falloir rentrer dans la tête de tout le monde, ça va être horrible.</replique>
+			<auteur>Lucile</auteur>
+			<date>Décembre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Faut commencer par un début.</replique>
+			<auteur>Lisa</auteur>
+			<date>Décembre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Tu sais c’qu’on dit n’a pas forcément le sens qu’on lui donne.</replique>
+			<auteur>Lisa</auteur>
+			<date>Décembre 2016</date>
+		</citation>
+		<citation type="monologue">
+			<replique>J’peux te demander combien tu pèses ? C’pas par rapport à toi, c’par rapport au dindon.</replique>
+			<auteur>Tom</auteur>
+			<date>Janvier 2017</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>J’suis jamais morte à cause de ça. - T’es jamais morte tout court.</replique>
+			<auteur>Morgane</auteur>
+			<auteur>Lucile</auteur>
+			<date>Janvier 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>En courant j’dis pas… mais à pied…</replique>
+			<auteur>Morgane</auteur>
+			<date>Janvier 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>J’te pique ta bouche.</replique>
+			<auteur>L'autre Claire</auteur>
+			<date>Janvier 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Les gens de Valencienne, c’est un peu les Ch’ti de l’Espagne.</replique>
+			<auteur>Alex</auteur>
+			<date>Février 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Le vendredi du dimanche soir, c’est le pire vendredi.</replique>
+			<auteur>Romaine</auteur>
+			<date>Février 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Tu es Paul, Claire.</replique>
+			<auteur>Lucile</auteur>
+			<date>Février 2017</date>
+			<commentaire>en RP, à Claire</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>Honnêtement, d’instinct… j’m’en fous.</replique>
+			<auteur>L'autre Claire</auteur>
+			<date>Février 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>C’est les colis qui sont tes potes… c’est les bro-colis.</replique>
+			<auteur>Bizuth</auteur>
+			<date>Février 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>On était des centaines, dont des milliers de PNJ.</replique>
+			<auteur>Morgane</auteur>
+			<date>Février 2017</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>T’as dit quoi ? - J’parle au poulet !</replique>
+			<auteur>Lucile</auteur>
+			<auteur>Morgane</auteur>
+			<date>Février 2017</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>Entre le Japon et le Viet-Nam, y’a une mer ! - Oui ‘fin entre le Japon et le Japon y’a une mer.</replique>
+			<auteur>Tom</auteur>
+			<auteur>Morgane</auteur>
+			<date>Février 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>En parlant de sous-race, faut que je parle à Dimitri.</replique>
+			<auteur>Morgane</auteur>
+			<date>Mars 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Quitte à faire quelque chose, autant le faire.</replique>
+			<auteur>Lucile</auteur>
+			<date>Mars 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Un grand pas ténébreux debout dans l'herbe, c'est un peu un arbre qui fait le poirier.</replique>
+			<auteur>Pierre</auteur>
+			<date>Mars 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Echanger deux chargeurs c’est un peu comme échanger deux femmes. C’est une mauvaise idée y’a un risque d’explosion.</replique>
+			<auteur>Dimitri</auteur>
+			<date>Avril 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Est-ce qu’il y a le symbole néonazi de la croix juive ?</replique>
+			<auteur>Claire</auteur>
+			<date>Avril 2017</date>
+			<commentaire>en RP</commentaire>
+		</citation>
+		<citation type="dialogue">
+			<replique>Y’a de la moquette qui pue. - De la moquette qui pue ? - Ouais. ‘fin c’est plus d’un point de vue visuel qu’elle pue.</replique>
+			<auteur>Lisa</auteur>
+			<auteur>Claire</auteur>
+			<date>Avril 2017</date>
+			<commentaire>en RP</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>Moi, je tente qu’avec les vieilles.</replique>
+			<auteur>Tom</auteur>
+			<date>Avril 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Sans un coin de sa tête, le coude posé sur la portière pour maintenir le menton, Paul se disait [...]</replique>
+			<auteur>Claire</auteur>
+			<date>Mai 2017</date>
+			<commentaire>dans un résumé SCP</commentaire>
+		</citation>
+		<citation type="dialogue">
+			<replique>Quand tu fais une grosse modif, que tu testes, et que tout fonctionne... - C’est que la modif n'est pas passée xD - Visiblement si, c'est juste que y a pas de bug ._. c'est troublant, je sais pas quoi faire.</replique>
+			<auteur>Alex</auteur>
+			<auteur>Francesco</auteur>
+			<date>Mai 2017</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>C'est une info qui a jamais vraiment été marquée par écrit je crois. - En même temps marquée par oral… C’est dur…</replique>
+			<auteur>Morgane</auteur>
+			<auteur>Lucile</auteur>
+			<date>Mai 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Tu fais vraiment ça dans une théière ?!</replique>
+			<auteur>Lucile</auteur>
+			<date>Avril 2017</date>
+			<commentaire>à Tom préparant un cocktail</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>Au pied du fait accompli.</replique>
+			<auteur>Tom</auteur>
+			<date>Mai 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>J’vous ai déjà dit que j’entendais très bien des oreilles !</replique>
+			<auteur>Claire</auteur>
+			<date>Mai 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Bouge-toi le cul dans le bon sens !</replique>
+			<auteur>Lisa</auteur>
+			<date>Mai 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Un accident, ça se prépare.</replique>
+			<auteur>Pierre</auteur>
+			<date>Juin 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>De toute façon, vous êtes géniaux et dignes d’intérêt et d’administration, par de nombreux chemins, tous autant que vous êtes !</replique>
+			<auteur>Lisa</auteur>
+			<date>Juin 2017</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>T’façon demain j’mets pas de pantalon. - Nan, on se balade en slip toute la journée !</replique>
+			<auteur>Lisa</auteur>
+			<auteur>Lucile</auteur>
+			<date>Juin 2017</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>Qu’est-ce que tu fais Lisa ? - C’était pour me rapprocher, j’étais pas dans l’alignement de fesses de tout le monde.</replique>
+			<auteur>Claire</auteur>
+			<auteur>Lisa</auteur>
+			<date>Juin 2017</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>Moi aussi j’veux aller à des fêtes de fesses alignées ! - On fera des fêtes de fesses si tu veux ma Lulu !</replique>
+			<auteur>Lucile</auteur>
+			<auteur>Lisa</auteur>
+			<date>Juin 2017</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>C’est pas pratique pour les poulpes. - Quoi ? Le twerk ?</replique>
+			<auteur>Claire</auteur>
+			<auteur>Lucile</auteur>
+			<date>Juillet 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Y’a pas beaucoup de situations où avoir une patate sur la tête c’est pratique.</replique>
+			<auteur>Morgane</auteur>
+			<date>Juillet 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Quand on tue quelqu’un, il est mort.</replique>
+			<auteur>L'autre Claire</auteur>
+			<date>Juillet 2017</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>C’est un peu des bisous gras. - C’est un peu des bisous de la vie du coup ?</replique>
+			<auteur>Lucile</auteur>
+			<auteur>Tom</auteur>
+			<date>Septembre 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Des fois j’arrive à mal entendre ce que je pense.</replique>
+			<auteur>Bizuth</auteur>
+			<date>Octobre 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>En fait j’ai lu, j’ai compris les mots, mais j’ai pas écouté ce que j’ai lu.</replique>
+			<auteur>Laura</auteur>
+			<date>Octobre 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>J’ai survécu jusqu’à la mort !</replique>
+			<auteur>Claire</auteur>
+			<date>Octobre 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Ne pas déterrer les muffins !!</replique>
+			<auteur>Dimitri</auteur>
+			<date>Novembre 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Comment on fait un dé six ? Ca existe pas !</replique>
+			<auteur>Pierre</auteur>
+			<date>Novembre 2017</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>Mais ! Tu dis que je t’écoute pas mais c’est toi qu’as pas fini ta phrase ! - Mais des fois je m’écoute pas non plus !</replique>
+			<auteur>Lucile</auteur>
+			<auteur>Claire</auteur>
+			<date>Novembre 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Priez pour les cons, ça leur fera les pieds.</replique>
+			<auteur>Pierre</auteur>
+			<date>Décembre 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Je fais pas complètement rien mais un peu quand même.</replique>
+			<auteur>Francesco</auteur>
+			<date>Novembre 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Ta main me tend les bras.</replique>
+			<auteur>Lena</auteur>
+			<date>Décembre 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Je veux pas me moucher dans une vulve !</replique>
+			<auteur>Claire</auteur>
+			<date>Décembre 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>C’est évident ! C’est pour ça que j’avais pas compris !</replique>
+			<auteur>Emilie</auteur>
+			<date>Janvier 2018</date>
+		</citation>
+		<citation type="monologue">
+			<replique>En même temps, si Hitler disait que Microsoft c’est le mal, je penserais que ça ne peut pas être un si mauvais gars.</replique>
+			<auteur>Bizuth</auteur>
+			<date>Janvier 2018</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Quand on y pense, un vampire, c’est un genre de grosse tique avec un accent moldave.</replique>
+			<auteur>Pierre</auteur>
+			<date>Janvier 2018</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Alors on va dire que le hibou c’est le pingouin de l’Europe ! Comme ça, ça fait du sens !</replique>
+			<auteur>Claire</auteur>
+			<date>Février 2018</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Moi, en tant qu’humain euh… j’me réunis pas.</replique>
+			<auteur>Tom</auteur>
+			<date>Janvier 2018</date>
+			<commentaire>en pleine réflexion pour trouver des alliés en JdR zombie</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>Le pain au chocolat, c’est comme un cyclope avec deux yeux.</replique>
+			<auteur>Bizuth</auteur>
+			<date>Mars 2018</date>
+		</citation>
+		<citation type="monologue">
+			<replique>De toute façon, si je suis venu à l’INSA, c’est juste parce que j’y étais.</replique>
+			<auteur>Lucas</auteur>
+			<date>Mai 2018</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Les cons c’est un soucis récurrent dans la vie.</replique>
+			<auteur>Sbouvier</auteur>
+			<date>Mai 2018</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Mais elle est p’t’être bi mais dans le mauvais, euh… l’autre sens !/replique>
+			<auteur>Claire</auteur>
+			<date>Mai 2018</date>
+		</citation>
+		<citation type="monologue">
+			<replique>C’est poilu comme l’enfer… ‘fin tu vois les couilles de Pan ? Pareil.</replique>
+			<auteur>Tom</auteur>
+			<date>Mai 2018</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Mis à part tout, c’est assez similaire.</replique>
+			<auteur>Romain</auteur>
+			<date>Juin 2018</date>
+		</citation>
+		<citation type="monologue">
+			<replique>T’es plus souvent avec toi qu’avec moi.</replique>
+			<auteur>Francesco</auteur>
+			<date>Juin 2018</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Nan mais on va pas faire dix kilomètres en dauphin, soyez pas cons !</replique>
+			<auteur>Lucile</auteur>
+			<date>Juillet 2018</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>L’épée, elle a des pouvoirs ? - Ouais, le pouvoir de mettre des grands coups d’épée dans la gueule ! - C’est vrai que c’est une technique éprouvée sur pas mal de monde.</replique>
+			<auteur>Morgane</auteur>
+			<auteur>Pierre</auteur>
+			<date>Juin 2017</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Quand tu dis ça, regarde mois entre les yeux !</replique>
+			<auteur>L'autre Claire</auteur>
+			<date>Août 2018</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Francesco est un peu un stéréotype de lui-même d’une manière générale.</replique>
+			<auteur>Pierre</auteur>
+			<date>Août 2018</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Non !! J’ai peur de mes yeux !!</replique>
+			<auteur>Romain</auteur>
+			<date>Septembre 2018</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>A défaut d’avoir des Sims, on a Morgane.</replique>
+			<auteur>L'autre Claire</auteur>
+			<auteur>Claire</auteur>
+			<date>Octobre 2018</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>A chaque fois que tu bois, tu te mets du lait sur le nez. - [Se frotte le nez] - Nan l'autre.</replique>
+			<auteur>Morgane</auteur>
+			<auteur>Sbouvier</auteur>
+			<date>Octobre 2018</date>
+		</citation>
+		<citation type="monologue">
+			<replique>L'improvisation, ça se prépare.</replique>
+			<auteur>Dimitri</auteur>
+			<date>Décembre 2018</date>
+		</citation>
+		<citation type="monologue">
+			<replique>On met Tom, Claire, Lucile et Lisa dans une boîte, on secoue, et qu'est-ce qui en sort ? Un cactus, un pingouin et un poulpe... Tom par contre on sait pas ce qu'il devient.</replique>
+			<auteur>Claire</auteur>
+			<date>Décembre 2018</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Nan mais que dalle des genoux !</replique>
+			<auteur>Tom</auteur>
+			<date>Mars 2019</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>SALOPERIE DE MES COUILLES A LA SAUCE TARTARE ! - J'ai jamais goûté.</replique>
+			<auteur>L'autre Claire</auteur>
+			<auteur>Aurélien</auteur>
+		</citation>
+		<citation type="monologue">
+			<replique>J'ai la flemme de compatir.</replique>
+			<auteur>Morgane</auteur>
+			<date>Mars 2019</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>Morgane, j'ai besoin d'aide ? - Oh j'arrive ! ... [Attend quelques secondes avant d'appeler] SBOUV' ??!</replique>
+			<auteur>Tom</auteur>
+			<auteur>Morgane</auteur>
+			<date>Mars 2019</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Mon frère c'est un enfant unique.</replique>
+			<auteur>Alex</auteur>
+			<date>Avril 2019</date>
+		</citation>
+		<citation type="monologue">
+			<replique>C'est normal de pas avoir le même âge que son enfant... enfin en tout cas c'est pas fréquent.</replique>
+			<auteur>Bizuth</auteur>
+			<date>Avril 2019</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>Ce serait bien d'inventer un genre d'anti-effaceur ! - Oui... ça s'appelle un stylo.</replique>
+			<auteur>Lisa</auteur>
+			<auteur>Claire</auteur>
+			<date>Avril 2019</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>Pourquoi t'as mangé un papillon ?! - J'ai pas, les araignées avaient l'air de kiffer ça.</replique>
+			<auteur>Dimitri</auteur>
+			<auteur>Aurélien</auteur>
+			<date>Mai 2019</date>
+		</citation>
+		<citation type="monologue">
+			<replique>La saveur, c'est fade.</replique>
+			<auteur>Aurélien</auteur>
+			<date>Mai 2019</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Tout à l'heure, quelqu'un a dit quelque chose à propos d'un truc, et j'étais d'accord avec ça.</replique>
+			<auteur>Lisa</auteur>
+			<date>Juin 2019</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>Qu'est-ce que tu as sur le nez ? - Un front.</replique>
+			<auteur>Claire</auteur>
+			<auteur>L'autre Claire</auteur>
+			<date>Juillet 2019</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Haaa ! Un petit génocide, ça vous fait une soirée !</replique>
+			<auteur>Dimitri</auteur>
+			<date>Août 2019</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Tu vois le nuage là bas qui ressemble à un mouton ? On dirait une tortue !</replique>
+			<auteur>Claire</auteur>
+			<date>Août 2019</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>Pourquoi t'es si vieux ? - Bah j'sais pas j'suis né avant vous ! - J'suis pas habitué à ce que les gens soient nés avant moi !</replique>
+			<auteur>Sbouvier</auteur>
+			<auteur>Aurélien</auteur>
+			<date>Septembre 2019</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Ce qui fait le cul, c'est son intégration dans le paysage corporel.</replique>
+			<auteur>Lisa</auteur>
+			<date>Septembre 2019</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Ouais, mais selon Nietzsche le thé vert Lipton dégueu aromatisé aux polymères me rend plus fort.</replique>
+			<auteur>Pierre</auteur>
+			<date>Septembre</date>
+		</citation>
+		<citation type="monologue">
+			<replique>T'as pas besoin d'être un lama pour bosser à la SPA !</replique>
+			<auteur>L'autre Claire</auteur>
+			<date>Octobre 2019</date>
+			<commentaire>comparant cela à une adhésions à une asso LGBT</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>Ça m'apprendra à travailler au boulot.</replique>
+			<auteur>Claire</auteur>
+			<date>Novembre 2019</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Bah quoi, j'suis d'accord avec toi ! T'as qu'à pas être d'accord avec toi même !</replique>
+			<auteur>Lucile</auteur>
+			<date>Novembre 2019</date>
+			<commentaire>répondant à Claire</commentaire>
+		</citation>
+		<citation type="monologue">
+			<replique>Plus que zéro ce sera toujours zéro !</replique>
+			<auteur>Dimitri</auteur>
+			<date>Décembre 2019</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Jouer à Céleste c'est comme avoir un ananas dans le cul : ça fait mal mais au bout d'un moment ça va.</replique>
+			<auteur>Aurélien</auteur>
+			<date>Décembre 2019</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Mais c'est ta mère la didascalie !</replique>
+			<auteur>L'autre Claire</auteur>
+			<date>Février 2020</date>
+		</citation>
+		<citation type="dialogue">
+			<replique>T'es mi-cul sur la chaise de Thomas et mi-cul sur celle de Dimitri alors va pas te plaindre ! - Mais pas du tout !! J'suis l'cul à l'air !!</replique>
+			<auteur>Claire</auteur>
+			<auteur>Julien</auteur>
+			<date>Février 2020</date>
+		</citation>
+		<citation type="monologue">
+			<replique>Claire vient de me demander si j'avais déjà été sourde du nez. Je ne sais pas très bien comment répondre.</replique>
+			<auteur>L'autre Claire</auteur>
+			<date>Février 2020</date>
+		</citation>
+		<citation type="monologue">
+			<replique>On parlait de la métaphore de la bite avec un  chips.</replique>
+			<auteur>Claire</auteur>
+			<date>Février 2020</date>
+			<commentaire>très sûre d'elle, photo à l'appui</commentaire>
+		</citation>
+	</livredor>
