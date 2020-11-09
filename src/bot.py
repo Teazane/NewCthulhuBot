@@ -1,5 +1,5 @@
 import discord, random, time
-from reactions import Reactions
+from src.reactions import Reactions
 
 class Bot(discord.Client):
     # Explication du mécanisme asynchrone Python : https://stackabuse.com/python-async-await-tutorial/

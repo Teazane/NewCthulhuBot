@@ -2,8 +2,9 @@ import re, json, random
 from bs4 import BeautifulSoup
 
 # Variable globale
-PATTERN_FILE_PATH = "match_pattern.json"
-LIVRE_DOR_FILE_PATH = "livredor.xml"
+import os
+PATTERN_FILE_PATH = os.path.abspath("data/match_pattern.json")
+LIVRE_DOR_FILE_PATH = os.path.abspath("data/livredor.xml")
 
 class Reactions():
     """

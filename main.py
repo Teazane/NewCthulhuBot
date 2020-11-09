@@ -1,4 +1,4 @@
-from bot import Bot
+from src.bot import Bot
 import configparser
 
 def main():
