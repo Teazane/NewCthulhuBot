@@ -47,13 +47,15 @@ class Reactions():
             :return: Le message de réponse incorporant le mot répété.
             :rtype: string
         """
-        repeat_world = re.search("^.* ([A-Za-zzéêèôîïëüö]{4,}).*$", received_msg).group(1)
+        search_a_word = re.search("^.* ([A-Za-zéêèôîïëüö]{4,}).*$", received_msg)
+        if search_a_word is not None:
+            repeat_word = search_a_word.group(1)
         answer_msg = "Toi-même, 'spèce d"
         # Le mot commence-t-il par une voyelle ?
-        if re.search("^[éêèîêûïüëöaeiouyAEIOUY]", repeat_world) is not None:
-            return answer_msg + "'" + repeat_world + " !"
+        if re.search("^[éêèîêûïüëöaeiouyAEIOUY]", repeat_word) is not None:
+            return answer_msg + "'" + repeat_word + " !"
         else:
-            return answer_msg + "e" + repeat_world + " !"
+            return answer_msg + "e" + repeat_word + " !"
 
     def search_key_word(self, received_msg):
         """
