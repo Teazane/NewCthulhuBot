@@ -3,7 +3,7 @@
         "pattern": "^[Dd]ie | [Dd]ie |[Kk]artoffeln?|schén| [Dd]er |^[dD]er | [Dd]as |^[dD]as |danke|guten?|nacht| ich |^[iI]ch | bin | ein |^[Ee]in ",
         "response": {
             "type": "simple",
-            "messages": ["Deutschland über alles !", "Ein Volk, ein Reich, ein Kartoffel !", "Heil Kartoffeln !"]
+            "messages": ["Deutschland über alles !", "Ein Volk, ein Reich, ein Kartoffel !", "Heil Kartoffel !"]
         }
     },
     "cthulhu": {
@@ -81,13 +81,6 @@
         "response": {
             "type": "simple",
             "messages": ["https://www.youtube.com/watch?v=RNYOhWOPHS8"]
-        }
-    },
-    "merde": {
-        "pattern": "[Mm][Ee][Rr][Dd][Ee]",
-        "response": {
-            "type": "simple",
-            "messages": ["sacrebleu", "saperlipopette", "cornegidouille"]
         }
     },
     "merci": {
