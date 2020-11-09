@@ -1,20 +1,51 @@
 import re, json, random
+from bs4 import BeautifulSoup
+
+# Variable globale
+PATTERN_FILE_PATH = "match_pattern.json"
+LIVRE_DOR_FILE_PATH = "livredor.xml"
 
 class Reactions():
+    """
+        Classe Reactions implementant les réactions du bot aux messages utilisateurs.
+
+        :param data_json: Données JSON comprenant les patterns à reconnaître et les réactions associées.
+        :param pattern_list: Liste de patterns associés à l'entrée JSON.
+        :param PATTERN_FILE_PATH: Variable globale contenant le chemin du fichier JSON contenant les patterns.
+        :param LIVRE_DOR_FILE_PATH: Variable globale contenant le chemin du fichier XML contenant les citations du Livre d'Or.
+        :type data_json: JSON data
+        :type pattern_list: dict{string: string, ...}
+        :type PATTERN_FILE_PATH: string
+        :type LIVRE_DOR_FILE_PATH: string
+    """
+
     def __init__(self):
+        """
+            Constructeur de la classe Reactions.
+
+            Charge les données depuis le fichier JSON contenant les patterns et
+            leurs réactions associées. On pourra parcourir les clefs et retrouver
+            ensuite directemet l'entrée du JSON à exploiter si le pattern (donc la
+            clef) match.
+        """
         # Chargement des mots-clefs
-        with open("match_pattern.json") as file: 
+        with open(PATTERN_FILE_PATH) as file: 
             data = file.read()
         self.data_json = json.loads(data)
         # Liste de patterns (associés à leur entrée JSON)
         self.pattern_list = {}
         for entry in self.data_json:
-            self.pattern_list[entry["pattern"]] = entry
-        # Etat mute initialisé à "faux"
-        self.muted_state = False
+            self.pattern_list.update({self.data_json[entry]["pattern"]: entry})
 
-    # Envoie "Toi-même 'spèce d[e']" + le dernier mot de la phrase
     def toi_meme_repeat(self, received_msg):
+        """
+            Méthode implémentant le 'Toi-même, 'spèce de...'.
+
+            :param received_msg: Message de l'utilisateur auquel on répond.
+            :type received_msg: string
+            :return: Le message de réponse incorporant le mot répété.
+            :rtype: string
+        """
         repeat_world = re.search("^.* ([A-Za-zzéêèôîïëüö]{4,}).*$", received_msg).group(1)
         answer_msg = "Toi-même, 'spèce d"
         # Le mot commence-t-il par une voyelle ?
@@ -23,22 +54,29 @@ class Reactions():
         else:
             return answer_msg + "e" + repeat_world + " !"
 
-    # Recherche de mots-clefs et renvoi de la réponse correspondante
     def search_key_word(self, received_msg):
+        """
+            Méthode recherchant les mots-clefs dans les messages utilisateurs.
+
+            :param received_msg: Message de l'utilisateur auquel on répond.
+            :type received_msg: string
+            :return: Le message de réponse correspondant au pattern reconnu.
+            :rtype: string
+            :raise: Lève une exception si le type de réponse à fournir n'a pas été reconnu.
+        """
+        print("Recherche d'une réaction en cours...")
         for key_word in self.pattern_list.keys():
-            # Di un mot-clef est matché dans le message reçu
+            # Si un mot-clef est matché dans le message reçu
             if re.search(key_word, received_msg) is not None:
                 response = self.data_json[self.pattern_list[key_word]]["response"]
                 if response["type"] == "simple":
-                    answer_range = len(response["message"])
-                    return response["message"][random.randint(0,answer_range)]
+                    return response["messages"][random.randint(0, len(response["messages"])-1)]
                 elif response["type"] == "complex":
                     case = response["case"]
                     # Ici on définit les fonctions des réponses complexes:
                     if case == "silence" or case == "gueule":
-                        self.muted_state = True
-                        answer_range = len(response["message"])
-                        return response["message"][random.randint(0,answer_range)]
+                        # TODO
+                        return response["messages"][random.randint(0, len(response["messages"])-1)]
                     elif case == "livredor":
                         is_there_author = re.search("auteur=(.*)$", received_msg)
                         quote_author = ""
@@ -49,7 +87,80 @@ class Reactions():
                         raise Exception("The answer complex type case has not been recognized.")
                 else:
                     raise Exception("The answer type has not been recognized.")
+        return None
 
-    # Traitement des requêtes Livre d'Or
     def _livre_dor(self, author):
+        """
+            Méthode privée implémentant la réponse en cas de requête au Livre d'Or.
+
+            :param author: [Optionnel] Nom de l'auteur de la citation à retourner.
+            :type author: string
+            :return: Citation du Livre d'Or.
+            :rtype: string
+        """
+        if author == "":
+            soup = BeautifulSoup(LIVRE_DOR_FILE_PATH, 'html.parser')
+            citations = soup.find_all('citation')
+            chosen_citation = citations[random.randint(0, len(citations)-1)]
+            self.__print_citation(chosen_citation.get('type'), \
+                chosen_citation.find_all('replique'), \
+                chosen_citation.find_all('author'), \
+                chosen_citation.find_all('date'), \
+                chosen_citation.find_all('commentaire'))
+        else:
+            pass
         return "A venir."
+
+    def __print_citation(self, c_type, replique, authors, date, comment):
+        """
+            Méthode privée mettant en forme une citation du Livre d'Or.
+
+            :param c_type: Type de la citation ("monologue" ou "dialogue").
+            :param replique: Citation du Livre d'Or.
+            :param authors: Auteur(s) de la citation (liste à un ou plusieurs éléments).
+            :param date: Date de la citation.
+            :param comment: Commentaire accompagnant la citation (peut être "None").
+            :type c_type: string
+            :type replique: string
+            :type authors: list(string, ...)
+            :type date: string
+            :type comment: string
+            :return: Citation du Livre d'Or mise en forme.
+            :rtype: string
+        """
+        # Citation Discord
+        to_print = ">>> \""
+        # Si monologue, print la réplique puis passer à la ligne et ajouter l'auteur
+        if c_type == "monologue":
+            to_print = to_print + replique + "\" \n" + authors[0]
+        # Si dialogue, print la réplique avec passage de ligne puis ajouter les auteurs
+        elif c_type == "dialogue":
+            # Séparer toutes les phrases du dialogue
+            separated_replique = replique.split("-")
+            for phrase in separated_replique:
+                # Ne pas mettre de tiret à la première phrase
+                if phrase == separated_replique[0]:
+                    to_print = to_print + phrase
+                # Passer une ligne et ajouter un tiret
+                else:
+                    to_print = to_print + "\n-" + phrase
+            # Fin de la réplique, fermer les guillemets et passer une ligne
+            to_print = to_print + "\" \n"
+            for author in authors:
+                # Si c'est le premier auteur de la liste
+                if author == authors[0]:
+                    to_print = to_print + author
+                # Si c'est le dernier auteur de la liste, on ajoute "et" avant son nom.
+                elif author == authors[len(authors)-1]:
+                    to_print = to_print + " et " + author
+                # Si c'est un auteur du milieu de la liste
+                else:
+                    to_print = to_print + ", " + author
+        else:
+            raise Exception("The citation type has not been recognized: " + c_type)
+        # S'il y a un commentaire, l'ajouter
+        if comment is not None:
+            to_print = to_print + ", " + comment
+        # Ajouter la date
+        to_print = to_print + ", " + date
+        return to_print
