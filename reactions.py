@@ -29,7 +29,7 @@ class Reactions():
             clef) match.
         """
         # Chargement des mots-clefs
-        with open(PATTERN_FILE_PATH) as file: 
+        with open(PATTERN_FILE_PATH, encoding='utf8') as file: 
             data = file.read()
         self.data_json = json.loads(data)
         # Liste de patterns (associés à leur entrée JSON)
@@ -98,18 +98,20 @@ class Reactions():
             :return: Citation du Livre d'Or.
             :rtype: string
         """
+        with open(LIVRE_DOR_FILE_PATH, encoding='utf8') as file: 
+            data = file.read()
         if author == "":
-            soup = BeautifulSoup(LIVRE_DOR_FILE_PATH, 'html.parser')
-            citations = soup.find_all('citation')
+            soup = BeautifulSoup(data, 'html.parser')
+            citations = soup.find('livredor').find_all('citation')
             chosen_citation = citations[random.randint(0, len(citations)-1)]
-            self.__print_citation(chosen_citation.get('type'), \
-                chosen_citation.find_all('replique'), \
-                chosen_citation.find_all('author'), \
-                chosen_citation.find_all('date'), \
-                chosen_citation.find_all('commentaire'))
+            to_print = self.__print_citation(chosen_citation.get('type'), \
+                chosen_citation.find('replique'), \
+                chosen_citation.find_all('auteur'), \
+                chosen_citation.find('date'), \
+                chosen_citation.find('commentaire'))
+            return to_print
         else:
-            pass
-        return "A venir."
+            return "Fonctionnalité à venir."
 
     def __print_citation(self, c_type, replique, authors, date, comment):
         """
@@ -132,11 +134,11 @@ class Reactions():
         to_print = ">>> \""
         # Si monologue, print la réplique puis passer à la ligne et ajouter l'auteur
         if c_type == "monologue":
-            to_print = to_print + replique + "\" \n" + authors[0]
+            to_print = to_print + replique.string + "\" \n- " + authors[0].string
         # Si dialogue, print la réplique avec passage de ligne puis ajouter les auteurs
         elif c_type == "dialogue":
             # Séparer toutes les phrases du dialogue
-            separated_replique = replique.split("-")
+            separated_replique = replique.string.split("-")
             for phrase in separated_replique:
                 # Ne pas mettre de tiret à la première phrase
                 if phrase == separated_replique[0]:
@@ -145,22 +147,22 @@ class Reactions():
                 else:
                     to_print = to_print + "\n-" + phrase
             # Fin de la réplique, fermer les guillemets et passer une ligne
-            to_print = to_print + "\" \n"
+            to_print = to_print + "\" \n- "
             for author in authors:
                 # Si c'est le premier auteur de la liste
                 if author == authors[0]:
-                    to_print = to_print + author
+                    to_print = to_print + author.string
                 # Si c'est le dernier auteur de la liste, on ajoute "et" avant son nom.
                 elif author == authors[len(authors)-1]:
-                    to_print = to_print + " et " + author
+                    to_print = to_print + " et " + author.string
                 # Si c'est un auteur du milieu de la liste
                 else:
-                    to_print = to_print + ", " + author
+                    to_print = to_print + ", " + author.string
         else:
             raise Exception("The citation type has not been recognized: " + c_type)
         # S'il y a un commentaire, l'ajouter
         if comment is not None:
-            to_print = to_print + ", " + comment
+            to_print = to_print + ", " + comment.string
         # Ajouter la date
-        to_print = to_print + ", " + date
+        to_print = to_print + ", " + date.string
         return to_print
