@@ -26,10 +26,10 @@ class Bot(discord.Client):
             Traite un message quand le bot en reçoit un.
         """
         # Si l'auteur est un bot, on ne répond pas
-        print("The bot has received a message from " + message.author.name + ": " + message.content)
         if message.author.bot:
             return
         else:
+            print("The bot has received a message from " + message.author.name + ": " + message.content)
             reactions = Reactions()
             you_are_taunt = random.randint(0,50)
             if you_are_taunt == 0:

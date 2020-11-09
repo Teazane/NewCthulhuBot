@@ -67,7 +67,6 @@ class Reactions():
             :rtype: string
             :raise: Lève une exception si le type de réponse à fournir n'a pas été reconnu.
         """
-        print("Recherche d'une réaction en cours...")
         for key_word in self.pattern_list.keys():
             # Si un mot-clef est matché dans le message reçu
             if re.search(key_word, received_msg) is not None:
