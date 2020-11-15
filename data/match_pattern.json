@@ -1,11 +1,4 @@
 {
-    "allemand": {
-        "pattern": "^[Dd]ie | [Dd]ie |[Kk]artoffeln?|schén| [Dd]er |^[dD]er | [Dd]as |^[dD]as |danke|guten?|nacht| ich |^[iI]ch | bin | ein |^[Ee]in ",
-        "response": {
-            "type": "simple",
-            "messages": ["Deutschland über alles !", "Ein Volk, ein Reich, ein Kartoffel !", "Heil Kartoffel !"]
-        }
-    },
     "cthulhu": {
         "pattern": "[Cc]thulhu",
         "response": {
@@ -45,7 +38,7 @@
         "pattern": "!info",
         "response": {
             "type": "simple",
-            "messages": ["Fonctionnalités :\n Repérer \"perd(*)\", \"jeu(x)\" et \"game(s)\"\n Repérer l'Allemand\n Répondre à un ping\n Répondre à \"dégueulasse\"\n Répondre aléatoirement \"Toi-même, 'spèce de ...\" 1 fois sur 50 où le \"...\" est le dernier mot de plus de 3 caractères de la phrase (en excluant les mots en -er, -ez et -ir)\n Répondre à \"Tanche\"\n Répondre à \"C'est pas faux\"\n Répondre à \"mécréant\"\n Répondre à \"humain\"\n Répondre à \"fuck\"\n Répondre quand on parle de lui, répond à un merci qui lui est adressé\n Répondre si on inverse le T et le H en début de Cthulhu\n Se tait 15 minutes lors d'un \"Silence Cthulhu\"\n Se vexe 15 minutes lors d'un \"Ta gueule Cthulhu\"\n Fonctionnalité livre d'or (tapez \"!helplivredor\" pour plus d'informations)"]
+            "messages": ["Fonctionnalités :\n- Répondre à un ping\n- Répondre aléatoirement 'Toi-même, 'spèce de ...' 1 fois sur 50 où le '...' est le dernier mot de plus de 3 caractères de la phrase (TODO : en excluant les mots en -er, -ez et -ir)\n- Répondre à 'C'est pas faux'\n- Répondre quand on parle de lui, répond à un merci qui lui est adressé\n- Corrige les gens quand on inverse le premier T et H de son prénom\n- Réagir au mot 'humain'\n- Réagir au mot 'mécréant'\n- Réagir à 'fuck'\n- Réagir à 'tanche'\n- Réagir à 'perd(*)', 'jeu(x)' et 'game(s)'\n- Réagir au mot 'dégueulasse'\n- Se tait 15 minutes lors d'un 'Silence Cthulhu'\n- Se vexe 15 minutes lors d'un 'Ta gueule Cthulhu'\n- Réagir à '!livredor' pour obtenir une citation au hasard\n- Réagir à '!livredor auteur=Prénom' (n'oubliez pas la majuscule) pour obtenir une citation d'une personne en particulier\n- Réagir à '!help' pour obtenir une aide simple\n- Réagir à '!info' pour obtenir plus de détails"]
         }
     },
     "jeu": {
@@ -101,7 +94,7 @@
         "pattern": "^[Pp][Ii][Nn][Gg][ ,.].*|^[Pp][Ii][Nn][Gg]$| [Pp][Ii][Nn][Gg][ ,.].*| [Pp][Ii][Nn][Gg]$",
         "response": {
             "type": "simple",
-            "messages": []
+            "messages": ["Pong."]
         }
     },
     "silence": {
